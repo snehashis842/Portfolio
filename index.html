@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snehashis Das | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <a href="#" class="logo">Snehashis</a>
+        <nav class="navbar">
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button class="dark-mode-toggle">🌙</button></li>
+            </ul>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Snehashis</h1>
+            <span class="typing-text"></span>
+            <a href="https://www.linkedin.com/in/snehashisdas" class="hire-me-btn">Hire Me</a>
+        </div>
+        <img src="profile.jpg" alt="Snehashis Das">
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="about.jpg" alt="About Me">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I'm an aspiring software developer with a passion for AI/ML and web development.</p>
+            <a href="resume.pdf" class="btn">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">Python</div>
+            <div class="skill-card">C++</div>
+            <div class="skill-card">Machine Learning</div>
+            <div class="skill-card">Django</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Emotion Recognition</h3>
+            <p>AI model for real-time emotion detection.</p>
+            <a href="https://github.com/snehashis842/Emotion-recognition-using-facial-expressions"
+                class="btn">GitHub</a>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>B.Tech in IT</h3>
+            <p>Seacom Engineering College, CGPA: 7.0</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Snehashis Das. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
